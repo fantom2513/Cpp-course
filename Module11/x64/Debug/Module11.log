@@ -1,0 +1,6 @@
+﻿  FileArray.cpp
+  Module11.cpp
+D:\Programming\c++ course\Module11\Module11\Module11.cpp(12,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  sort.cpp
+  Создание кода...
+  Module11.vcxproj -> D:\Programming\c++ course\Module11\x64\Debug\Module11.exe
