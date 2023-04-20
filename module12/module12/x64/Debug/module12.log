@@ -1,0 +1,7 @@
+﻿  isPeriodic.cpp
+  isPeriodic.h
+  module12.cpp
+D:\Programming\c++ course\module12\module12\module12.cpp(14,5): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  Создание кода...
+x64\Debug\isPeriodic.obj : warning LNK4042: объект указан более одного раза; лишние не учитываются
+  module12.vcxproj -> D:\Programming\c++ course\module12\x64\Debug\module12.exe
