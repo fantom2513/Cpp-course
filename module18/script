@@ -1,0 +1,30 @@
+#!/bin/bash
+# script to change permissions of files
+#
+USERFILE="users.txt"
+MESSAGEFILE="messages.txt"
+# check if the file we want to change exists or not
+if [[ ! -e $USERFILE ]]
+then
+   echo "creating "$USERFILE
+   touch $USERFILE
+fi
+# remove permissions for other and group
+chmod 600 $USERFILE
+# check if permissions are set correct
+ls -l  $USERFILE
+# 16-------------------------------------------------
+# check if the file we want to change exists or not
+if [[ ! -e  $MESSAGEFILE ]]
+then
+   echo "creating "$MESSAGEFILE" file"
+   touch $MESSAGEFILE
+fi
+# remove permissions for other and group
+chmod 600 $MESSAGEFILE
+# check if permissions are set correct
+ls -l  $MESSAGEFILE
+# 27-------------------------------------------------
+# Now compile project and run:
+touch 18_12_HW_linux.cpp
+make run
